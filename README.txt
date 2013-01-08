@@ -49,4 +49,11 @@ http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#telling-git-you
 | Use of RFID testing software |
 +------------------------------+
 
+To be completed
+
+
 Authors : ALLAIN Charlie, BELGHITI Sarah, LORANT Allan, PAUL Baptiste, SALLOUH Sabrina
+
+
+
+
