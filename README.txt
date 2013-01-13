@@ -18,6 +18,11 @@
 # Initialize the Git repository for the current directory
 	$ git init 
 
+# Write in the ~/.gitconfig  file :
+[user]
+	name = your name here
+	email = your adress here
+
 # Pull of the files
 	$ git pull
 
