@@ -18,10 +18,13 @@
 # Initialize the Git repository for the current directory
 	$ git init 
 
+# Pull of the files
+	$ git pull
+
 # Adding all files to git repository
 	$ git add .
-# Commit all files with a comment (needed)
-	$ git commit -a -m "My comment"
+# Commit files with a comment (needed)
+	$ git commit -m "My comment"
 # Push the commit
 	$ git push
 
