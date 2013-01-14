@@ -17,13 +17,15 @@
 	$ cd ~/Project-RFID
 # Initialize the Git repository for the current directory
 	$ git init 
+# Download the project
+	$ git clone <URL>
 
 # Write in the ~/.gitconfig  file :
 [user]
 	name = your name here
 	email = your adress here
 
-# Pull of the files
+# Pull of the files before doing modifications
 	$ git pull
 
 # Adding all files to git repository
