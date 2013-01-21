@@ -85,11 +85,11 @@ void lancer (GtkWidget *wid, gpointer win)
 
     //strcat (CommandLine, "cd ~/wzmrtd\n./wzmrtd-tool -r ''#1'' -y -v -d -xml Test -pfx Test -dir ~/wzmrtd/basepassport\n");
 
-    strcat(CommandLine,"cd ~/wzmrtd\n./wzmrtd-tool -r \"#1\" -y -v -d -xml Test -pfx Test ");
-//    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"cd ~/wzmrtd\n./wzmrtd-tool -r \"#1\" -y -v -d -xml Test -pfx Test -z \"$(echo -e '");
+    strcat(CommandLine,MRZ);
 //    strcat(CommandLine,"\r\n");
 //    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"-dir ~/wzmrtd/basepassport\n");
+    strcat(CommandLine,"')\" -dir ~/wzmrtd/basepassport\n");
     printf("CommandLine : %s", CommandLine);
 
     if((sortie=popen(CommandLine, "r")) == NULL)
