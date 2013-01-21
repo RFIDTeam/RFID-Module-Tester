@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1355148587 source:/home/allanlorant/Desktop/RFID/Projet/src/callback.c
-	"./../include/callback.h"
+1358776257 source:/home/allanlorant/Desktop/RFID/Projet/src/callback.c
+	"callback.h"
 
 1355147504 /home/allanlorant/Desktop/RFID/Projet/include/callback.h
 	<stdlib.h>
@@ -2322,8 +2322,12 @@
 1317845845 /usr/include/gtk-2.0/gtk/gtktipsquery.h
 	<gtk/gtk.h>
 
-1355148611 source:/home/allanlorant/Desktop/RFID/Projet/src/main.c
+1358775749 source:/home/allanlorant/Desktop/RFID/Projet/src/main.c
 	<stdlib.h>
 	<gtk/gtk.h>
-	"./../include/callback.h"
+	"callback.h"
+
+1358775759 /home/allanlorant/Desktop/RFID/Projet/src/callback.h
+	<stdlib.h>
+	<gtk/gtk.h>
 

@@ -75,7 +75,6 @@ void lancer (GtkWidget *wid, gpointer win)
     char MRZ[44];
 
 // Ajouter fonction pour rentrer la MRZ
-
     if (MRZ == NULL)
     {
         fprintf (stderr, "Erreur, MRZ non-valide");
