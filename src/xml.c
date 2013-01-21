@@ -1,9 +1,9 @@
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
- #include <libxml/tree.h>
+ #include <libxml2/libxml/tree.h>
  #include <libxml/parser.h>
- #include <string.h>  
+ #include <string.h>
 
 
 typedef void (*fct_parcours_t)(xmlNodePtr);
@@ -23,7 +23,7 @@ char* dateOfExpiry = NULL;
 
 void parcours_arbre(xmlNodePtr noeud, fct_parcours_t f) {
     xmlNodePtr n;
-    
+
     for (n = noeud; n != NULL; n = n->next) {
         f(n);
         if ((n->type == XML_ELEMENT_NODE) && (n->children != NULL)) {
@@ -60,7 +60,7 @@ void afficher_noeud(xmlNodePtr noeud) {
             if (strcmp (noeud->name, "nationality") == 0){
               nationality = content;
               printf("%s : %s\n",nodename, content);
-	    } 
+	    }
             if (strcmp (noeud->name, "dateOfBirth") == 0){
               dateOfBirth = content;
               printf("%s : %s\n",nodename, content);
@@ -74,7 +74,7 @@ void afficher_noeud(xmlNodePtr noeud) {
               printf("%s : %s\n",nodename, content);
 	    }
             xmlFree(content);
-            
+
         }
     }
 }

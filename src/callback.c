@@ -71,8 +71,9 @@ void lancer (GtkWidget *wid, gpointer win)
 
     char tampon[UCHAR_MAX];
     FILE *sortie;
-    char CommandLine[100];
-    char MRZ[44];
+    char CommandLine[1000]={0};
+    char MRZ[44]={0};
+    strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
 
 // Ajouter fonction pour rentrer la MRZ
 
@@ -80,14 +81,18 @@ void lancer (GtkWidget *wid, gpointer win)
     {
         fprintf (stderr, "Erreur, MRZ non-valide");
     }
+    else printf("MRZ : %s\n",MRZ);
 
-    strcat(CommandLine,"cd ~/wzmrtd\n./wzmrtd-tool -r \"#1\" -z \"$(echo -e '");
-    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"\r\n");
-    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"')\" -f -pfx test -d -v");
+    //strcat (CommandLine, "cd ~/wzmrtd\n./wzmrtd-tool -r ''#1'' -y -v -d -xml Test -pfx Test -dir ~/wzmrtd/basepassport\n");
 
-    if((sortie=popen(CommandLine)) == NULL)
+    strcat(CommandLine,"cd ~/wzmrtd\n./wzmrtd-tool -r \"#1\" -y -v -d -xml Test -pfx Test ");
+//    strcat(CommandLine,MRZ);
+//    strcat(CommandLine,"\r\n");
+//    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"-dir ~/wzmrtd/basepassport\n");
+    printf("CommandLine : %s", CommandLine);
+
+    if((sortie=popen(CommandLine, "r")) == NULL)
     {
         fprintf (stderr, "erreur");
     }
