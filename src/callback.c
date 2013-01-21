@@ -1,5 +1,4 @@
-#include "./../include/callback.h"
-//#define _POSIX_C_SOURCE  2
+#include "callback.h"
 
 #define DEFAULT_FILE "main.c"
 
@@ -29,15 +28,54 @@ void fct_ouvrir(GtkWidget *wid, gpointer user_data)
 //  (void) *wid;
 }
 
-void salutMonde (GtkWidget *wid, gpointer win)
+void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
+{
+    GtkWidget *selectionneur = NULL;
+
+    selectionneur = gtk_file_chooser_dialog_new ("Quel fichier souhaitez vous ouvrir?", NULL,
+                                                 GTK_FILE_CHOOSER_ACTION_OPEN,
+                                                 GTK_STOCK_OPEN, GTK_RESPONSE_ACCEPT,
+                                                 GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
+
+    if (gtk_dialog_run (GTK_DIALOG (selectionneur)) == GTK_RESPONSE_ACCEPT)
+    {
+        gchar *file_name = NULL;
+        char tampon[UCHAR_MAX];
+        FILE *sortie;
+        char cmd[1000];
+
+        file_name = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (selectionneur));
+        sprintf (cmd, "pwd ; cd %s ; pwd", file_name);
+
+        if((sortie=popen(cmd, "r")) == NULL)
+        {
+            fprintf (stderr, "erreur");
+        }
+        while (fgets (tampon, sizeof tampon, sortie) != NULL)
+        {
+            fputs (tampon, stdout);
+        }
+
+        fclose (sortie);
+
+
+        g_free (file_name), file_name = NULL;
+    }
+    gtk_widget_destroy (selectionneur);
+
+//  (void) *wid;
+}
+
+void lancer (GtkWidget *wid, gpointer win)
 {
 
     char tampon[UCHAR_MAX];
     FILE *sortie;
 
-    sortie=popen("cd /home/sarah/wzmrtd \n ./wzmrtd-tool -r '#1' -f -pfx test -xsi", "r");
-    //sortie=popen("cd /home/sarah/wzmrtd \n ./wzmrtd-tool -r '#1' -z ""$(echo -e 'P<MARSALLOUH<<SABRINA<<<<<<<<<<<<<<<<<<<<<<<\r\nEV02120860MAR8807113F1511114BE812755<<<<<<78')"" -f -pfx SABRINA", "r")
-
+    if((sortie=popen("cd ~/wzmrtd\n./wzmrtd-tool -r ''#1'' -y -v -d -xml Test -pfx Test -dir ~/wzmrtd/basepassport\n", "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
     while (fgets (tampon, sizeof tampon, sortie) != NULL)
     {
         fputs (tampon, stdout);
@@ -46,7 +84,10 @@ void salutMonde (GtkWidget *wid, gpointer win)
     fclose (sortie);
 
     GtkWidget *dialog = NULL;
-    dialog = gtk_message_dialog_new (GTK_WINDOW (win), GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK, "AAAAaaaaaaaaaaaaaah!");
+    dialog = gtk_message_dialog_new (GTK_WINDOW (win),
+                                     GTK_DIALOG_MODAL,
+                                     GTK_MESSAGE_ERROR,
+                                     GTK_BUTTONS_OK, "AAAAaaaaaaaaaaaaaah!");
     gtk_window_set_position (GTK_WINDOW (dialog), GTK_WIN_POS_CENTER);
     gtk_dialog_run (GTK_DIALOG (dialog));
     gtk_widget_destroy (dialog);

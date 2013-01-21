@@ -1,6 +1,6 @@
-#include <stdlib.h>
+ #include <stdlib.h>
 #include <gtk/gtk.h>
-#include "./../include/callback.h"
+#include "callback.h"
 
 
 int main (int argc, char *argv[])
@@ -8,15 +8,6 @@ int main (int argc, char *argv[])
 
   GtkWidget *win = NULL;
   GtkWidget *vbox = NULL;
-
-//ajouté
-
- GtkWidget *pFrame;
- GtkWidget *pEntry;
- GtkWidget *pLabel;
-GtkWidget *pVBoxFrame;
-
-
 
   /* Initialize GTK+ */
 
@@ -26,23 +17,17 @@ GtkWidget *pVBoxFrame;
   win = gtk_window_new (GTK_WINDOW_TOPLEVEL); // Crée la fenetre
 
   gtk_container_set_border_width (GTK_CONTAINER (win), 20); //définit la taille de la bordure de la fenetre
-  gtk_window_set_default_size(GTK_WINDOW(win),200,200); // dimensionne la fenetre
+  gtk_window_set_default_size(GTK_WINDOW(win),300,200); // dimensionne la fenetre
   gtk_window_set_title (GTK_WINDOW (win), "Fenetre principale"); //donne un titre à la fenetre
   gtk_window_set_position(GTK_WINDOW(win), GTK_WIN_POS_CENTER); //centre la fenetre à son ouverture
 //  gtk_widget_realize (win); // Facultatif??
-  g_signal_connect (win, "destroy", gtk_main_quit, NULL);
-  // Connecte le bouton de fermeture de la fenetre à la fermeture de la fenetre
-
-
-
-
+  g_signal_connect (win, "destroy", gtk_main_quit, NULL); // Connecte le bouton de fermeture de la fenetre à la fermeture de la fenetre
 
   /* Creation de la vertical box */
-vbox = gtk_vbox_new (FALSE, 0);
-gtk_container_add (GTK_CONTAINER (win), vbox);
+  vbox = gtk_vbox_new (FALSE, 0);
+  gtk_container_add (GTK_CONTAINER (win), vbox);
+
   /* Creation de la zone de texte */
-
-
 
   GtkWidget *zone_texte = NULL;
   GtkWidget *scrolled_win = NULL;
@@ -56,27 +41,22 @@ gtk_container_add (GTK_CONTAINER (win), vbox);
 
   /* Creation des boutons */
   GtkWidget *bouton = NULL;
-//ajouté
-pFrame = gtk_frame_new("test");
-gtk_box_pack_start(GTK_BOX(vbox),pFrame,TRUE,FALSE,0);
-
-pVBoxFrame = gtk_vbox_new(TRUE,0);
-gtk_container_add(GTK_CONTAINER(pFrame),pVBoxFrame);
-pLabel = gtk_label_new("nom");
-gtk_box_pack_start(GTK_BOX(pVBoxFrame),pLabel,TRUE,FALSE,0);
-pEntry = gtk_entry_new();
-gtk_box_pack_start(GTK_BOX(pVBoxFrame),pEntry,TRUE,FALSE,0);
-//fin ajout
 
   //Bouton OUVRIR//
-  bouton = gtk_button_new_from_stock (GTK_STOCK_OPEN);
+  bouton = gtk_button_new_from_stock ("Afficher fichier...");
   g_signal_connect (G_OBJECT (bouton), "clicked", G_CALLBACK (fct_ouvrir), zone_texte);
   gtk_box_pack_start (GTK_BOX (vbox), bouton, FALSE, FALSE, 2);
 
   //Bouton 2 //
-  bouton = gtk_button_new_from_stock (GTK_STOCK_DIALOG_INFO);
-  g_signal_connect (G_OBJECT (bouton), "clicked", G_CALLBACK (salutMonde), (gpointer) win);
+  bouton = gtk_button_new_from_stock ("Changer dir");
+  g_signal_connect (G_OBJECT (bouton), "clicked", G_CALLBACK (fct_ouvrir2), (gpointer) win);
   gtk_box_pack_start (GTK_BOX (vbox), bouton, FALSE, FALSE, 2); // également faisable avec  gtk_container_add (GTK_CONTAINER (vbox), button2);
+
+  //Bouton 3//
+  bouton = gtk_button_new_from_stock ("Lancer!");
+  g_signal_connect (G_OBJECT (bouton), "clicked", G_CALLBACK (lancer), (gpointer) win);
+  gtk_box_pack_start (GTK_BOX (vbox), bouton, FALSE, FALSE, 2); // également faisable avec  gtk_container_add (GTK_CONTAINER (vbox), button2);
+
 
   //Bouton Quitter//
   bouton = gtk_button_new_from_stock (GTK_STOCK_QUIT);
