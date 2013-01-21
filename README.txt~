@@ -7,9 +7,11 @@
  |_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|
 
 
-+-------------------------+
-| Use of GitHub on Ubuntu |
-+-------------------------+
+OS Required : Linux 32 bits
+
++------------------------+
+| Use of GitHub on Linux |
++------------------------+
 
 # Installation
 	$ sudo apt-get install git-core
@@ -45,8 +47,56 @@
 http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#telling-git-your-name
 
 
++-------------------------------+
+| Use of wzmrtd on Linux 32 bits|
++-------------------------------+
+
+# Installation
+# Installation of the dependances
+	$ sudo apt-get install git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
+# Clonage of the repository
+	$ git clone git://github.com/ariadnext/wzmrtd.git
+ 	$ cd wzmrtd
+# Generate the makefiles
+	$ ccmake .
+# compilation
+	$ make	
+# Push "c" until the apparition of "g", then push it to generate.
+
+Download the the driver of the card reader
+	http://www.hidglobal.com/driverDownloads.php?techCat=19&prod_id=171#
+
+       --------------
+
+# To read a passport
+
+# In terminal 1 :
+	# Stop the deamon PCSCD
+		$ sudo /etc/init.d/pcscd stop
+	# Launch PCSCD with traces
+		$ sudo pcscd -afd
+	# Plug the RFID reader (some lines appear)
+	# Put the passport on the reader (light flashing)
+
+
+# Dans le terminal 2 :
+
+	# Launch the reading with
+		$ ./wzmrtd-tool -r "#1" -z "$(echo -e 'MRZ\r\nMRZ')" -f -pfx test -d -v
+		# Replace "MRZ" by the passport mrz
+	# The option -f save the data in a xml file named test.xml here.
+
+# Help
+./wzmrtd-tool -h
+
+
 +------------------------------+
 | Use of RFID testing software |
 +------------------------------+
+
+
+To be completed ...
+
+
 
 Authors : ALLAIN Charlie, BELGHITI Sarah, LORANT Allan, PAUL Baptiste, SALLOUH Sabrina
