@@ -29,6 +29,8 @@ OS Required : Linux 32 bits
 
 # Pull of the files before doing modifications
 	$ git pull
+# Update if changes occur
+	$ git update
 
 # Adding all files to git repository
 	$ git add .

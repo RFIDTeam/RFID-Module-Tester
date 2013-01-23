@@ -1,5 +1,4 @@
 #include "callback.h"
-
 #define DEFAULT_FILE "main.c"
 
 static void open_file (const gchar *, GtkTextView *);
@@ -71,8 +70,10 @@ void lancer (GtkWidget *wid, gpointer win)
 
     char tampon[UCHAR_MAX];
     FILE *sortie;
-    char CommandLine[1000]={0};
+    char CommandLine[500]={0};
     char MRZ[44]={0};
+
+ /*
     strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
 
 // Ajouter fonction pour rentrer la MRZ
@@ -91,11 +92,29 @@ void lancer (GtkWidget *wid, gpointer win)
 //    strcat(CommandLine,MRZ);
     strcat(CommandLine,"')\" -dir ~/wzmrtd/basepassport\n");
     printf("CommandLine : %s", CommandLine);
+*/
 
-    if((sortie=popen(CommandLine, "r")) == NULL)
+    // Allan -------------------------
+    strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
+
+    if (MRZ == NULL)
+    {
+        fprintf (stderr, "Erreur, MRZ non-valide");
+    }
+    else printf("MRZ : %s\n",MRZ);
+
+    strcat(CommandLine,"./../wzmrtd-tool.static -r \"#1\" -z \"$(echo -e '");
+    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"\r\n");
+    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"')\" -f allanlorant.xml -v -xsi -y");
+    printf("CommandLine : %s", CommandLine);
+    // -------------------------------
+
+    /*if((sortie=popen(CommandLine, "r")) == NULL)
     {
         fprintf (stderr, "erreur");
-    }
+    }*/
     while (fgets (tampon, sizeof tampon, sortie) != NULL)
     {
         fputs (tampon, stdout);

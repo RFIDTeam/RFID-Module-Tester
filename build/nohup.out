@@ -1,0 +1,608 @@
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+3 files loaded
+Done loading project in 10ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 3 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Compiling: ../src/main.c
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 2 seconds)
+0 errors, 0 warnings
+Process terminated with status 0 (0 minutes, 15 seconds)
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+3 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 3 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 1 files for #includes, cache used 514, cache updated 1
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Process terminated with status 0 (0 minutes, 9 seconds)
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+Compiling: ../src/main.c
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 0 warnings
+Process terminated with status 0 (0 minutes, 16 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 2 files for #includes, cache used 513, cache updated 2
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Process terminated with status 0 (0 minutes, 6 seconds)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 0 warnings
+Process terminated with status 0 (0 minutes, 10 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 1 files for #includes, cache used 514, cache updated 1
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Process terminated with status 0 (0 minutes, 9 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 0 files for #includes, cache used 515, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Process terminated with status 0 (3 minutes, 51 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 0 files for #includes, cache used 515, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Process terminated with status 0 (4 minutes, 4 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 0 warnings
+Process terminated with status 0 (0 minutes, 16 seconds)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Target is up to date.
+Scanned 1 files for #includes, cache used 514, cache updated 1
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Nothing to be done.
+
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Process terminated with status 0 (1 minutes, 38 seconds)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Linking console executable: bin/Debug/RFID
+Output size is 39.82 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 0 warnings
+Process terminated with status 0 (0 minutes, 19 seconds)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:118:18: warning: ‘sortie’ is used uninitialized in this function [-Wuninitialized]
+Linking console executable: bin/Debug/RFID
+Output size is 39.82 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 1 warnings
+Process terminated with status 0 (0 minutes, 12 seconds)
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:118:18: warning: ‘sortie’ is used uninitialized in this function [-Wuninitialized]
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 1 warnings
+Process terminated with status 0 (0 minutes, 19 seconds)
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:118:18: warning: ‘sortie’ is used uninitialized in this function [-Wuninitialized]
+Linking console executable: bin/Debug/RFID
+Output size is 39.83 KB
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Process terminated with status 0 (0 minutes, 1 seconds)
+0 errors, 1 warnings
+Process terminated with status 0 (0 minutes, 8 seconds)
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
