@@ -1,6 +1,7 @@
 #include "callback.h"
 #define DEFAULT_FILE "main.c"
 
+
 static void open_file (const gchar *, GtkTextView *);
 
 
@@ -26,6 +27,7 @@ void fct_ouvrir(GtkWidget *wid, gpointer user_data)
 
 //  (void) *wid;
 }
+
 
 void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
 {
@@ -65,6 +67,74 @@ void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
 //  (void) *wid;
 }
 
+
+void readPassport (char* MRZ, char* FileName, char* CommandLine, FILE* sortie, char* tampon)
+{
+    //Edition of the main command line
+    strcat(CommandLine,"./wzmrtd-tool.static -r \"#1\" -z '");
+    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"\r\n");
+    strcat(CommandLine,MRZ);
+    strcat(CommandLine,"' -f ");
+    strcat(CommandLine, FileName);
+    strcat(CommandLine,".xml -v -xsi -y");
+
+    if((sortie=popen(CommandLine, "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
+
+    while (fgets (tampon, sizeof tampon, sortie) != NULL)
+    {
+        fputs (tampon, stdout);
+    }
+
+    fclose (sortie);
+}
+
+
+void moveXmlToDataBase (char* MvXmlCommandLine, char* FileName, FILE* sortie, char* tampon)
+{
+    //Edition of the xml move command line
+    strcat(MvXmlCommandLine,"mv ");
+    strcat(MvXmlCommandLine, FileName);
+    strcat(MvXmlCommandLine, ".xml ./../DataBase");
+
+    if((sortie=popen(MvXmlCommandLine, "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
+
+    while (fgets (tampon, sizeof tampon, sortie) != NULL)
+    {
+        fputs (tampon, stdout);
+    }
+
+    fclose (sortie);
+}
+
+
+void moveJp2ToDataBase (char* MvJpgCommandLine, char* FileName, FILE* sortie, char* tampon)
+{
+    //Edition of the jpg move command line
+    strcat(MvJpgCommandLine,"mv ");
+    strcat(MvJpgCommandLine, FileName);
+    strcat(MvJpgCommandLine, "_fac_0.jp2 ./../DataBase");
+
+    if((sortie=popen(MvJpgCommandLine, "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
+
+    while (fgets (tampon, sizeof tampon, sortie) != NULL)
+    {
+        fputs (tampon, stdout);
+    }
+
+    fclose (sortie);
+}
+
+
 void lancer (GtkWidget *wid, gpointer win)
 {
 
@@ -77,6 +147,7 @@ void lancer (GtkWidget *wid, gpointer win)
     char FileName[34]={0};
     char MvXmlCommandLine[51]={0};
     char MvJpgCommandLine[57]={0};
+    char xmlDirectory[52]={0};
     int i;
 
     // Ajouter fonction pour rentrer la MRZ
@@ -97,51 +168,30 @@ void lancer (GtkWidget *wid, gpointer win)
     FileName[28] = MRZ[42];
     FileName[29] = MRZ[43];
 
-    //Edition of the main command line
-    strcat(CommandLine,"./wzmrtd-tool.static -r \"#1\" -z '");
-    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"\r\n");
-    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"' -f ");
-    strcat(CommandLine, FileName);
-    strcat(CommandLine,".xml -v -xsi -y");
-    if((sortie=popen(CommandLine, "r")) == NULL)
-    {
-        fprintf (stderr, "erreur");
-    }
-    while (fgets (tampon, sizeof tampon, sortie) != NULL)
-    {
-        fputs (tampon, stdout);
-    }
-    fclose (sortie);
+    // Path to the supposed xml file in the DataBase
+    strcat(xmlDirectory, "./../DataBase/");
+    strcat(xmlDirectory, FileName);
+    strcat(xmlDirectory, ".xml");
+    printf("%s\n", xmlDirectory);
 
-    //Edition of the xml move command line
-    strcat(MvXmlCommandLine,"mv ");
-    strcat(MvXmlCommandLine, FileName);
-    strcat(MvXmlCommandLine, ".xml ./../DataBase");
-    if((sortie2=popen(MvXmlCommandLine, "r")) == NULL)
-    {
-        fprintf (stderr, "erreur");
-    }
-    while (fgets (tampon, sizeof tampon, sortie2) != NULL)
-    {
-        fputs (tampon, stdout);
-    }
-    fclose (sortie2);
 
-    //Edition of the jpg move command line
-    strcat(MvJpgCommandLine,"mv ");
-    strcat(MvJpgCommandLine, FileName);
-    strcat(MvJpgCommandLine, "_fac_0.jp2 ./../DataBase");
-    if((sortie3=popen(MvJpgCommandLine, "r")) == NULL)
-    {
-        fprintf (stderr, "erreur");
-    }
-    while (fgets (tampon, sizeof tampon, sortie3) != NULL)
-    {
-        fputs (tampon, stdout);
-    }
-    fclose (sortie3);
+    // Test if passport already in database
+    if (fopen(xmlDirectory, "r")!= NULL)
+	{
+		printf("\n\n\n --------------------------------\nPassport in DataBase, data check in progress ...\n");
+        char* tempFile= "temp";
+        readPassport (MRZ, tempFile, CommandLine, sortie, tampon);
+        // RECUPERER LES CHAMPS DES 2 XML
+        // COMPARER LES CHAMPS
+	}
+	else
+	{
+		printf("\n\n\n --------------------------------\nNew passport detected, registration in database in progress ...\n");
+        readPassport (MRZ, FileName, CommandLine, sortie, tampon);
+        moveXmlToDataBase (MvXmlCommandLine, FileName, sortie2, tampon);
+        moveJp2ToDataBase (MvJpgCommandLine, FileName, sortie3, tampon);
+        // RECUPERER LES CHAMPS DU XML
+	}
 
 
     GtkWidget *dialog = NULL;
@@ -153,6 +203,7 @@ void lancer (GtkWidget *wid, gpointer win)
     gtk_dialog_run (GTK_DIALOG (dialog));
     gtk_widget_destroy (dialog);
 }
+
 
 static void open_file (const gchar *file_name, GtkTextView *zone_texte)
 {
