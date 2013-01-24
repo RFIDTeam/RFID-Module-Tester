@@ -70,9 +70,13 @@ void lancer (GtkWidget *wid, gpointer win)
 
     char tampon[UCHAR_MAX];
     FILE *sortie;
+    FILE *sortie2;
+    FILE *sortie3;
     char CommandLine [300] = {0};
     char MRZ[44]={0};
     char FileName[34]={0};
+    char MvXmlCommandLine[51]={0};
+    char MvJpgCommandLine[57]={0};
     int i;
 
     // Ajouter fonction pour rentrer la MRZ
@@ -92,30 +96,53 @@ void lancer (GtkWidget *wid, gpointer win)
     }
     FileName[28] = MRZ[42];
     FileName[29] = MRZ[43];
-    strcat(FileName, ".xml");
 
-    //Edition of the command line
+    //Edition of the main command line
     strcat(CommandLine,"./wzmrtd-tool.static -r \"#1\" -z '");
     strcat(CommandLine,MRZ);
     strcat(CommandLine,"\r\n");
     strcat(CommandLine,MRZ);
     strcat(CommandLine,"' -f ");
     strcat(CommandLine, FileName);
-    strcat(CommandLine," -v -xsi -y");
-
-
+    strcat(CommandLine,".xml -v -xsi -y");
     if((sortie=popen(CommandLine, "r")) == NULL)
     {
         fprintf (stderr, "erreur");
     }
-
-
     while (fgets (tampon, sizeof tampon, sortie) != NULL)
     {
         fputs (tampon, stdout);
     }
-
     fclose (sortie);
+
+    //Edition of the xml move command line
+    strcat(MvXmlCommandLine,"mv ");
+    strcat(MvXmlCommandLine, FileName);
+    strcat(MvXmlCommandLine, ".xml ./../DataBase");
+    if((sortie2=popen(MvXmlCommandLine, "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
+    while (fgets (tampon, sizeof tampon, sortie2) != NULL)
+    {
+        fputs (tampon, stdout);
+    }
+    fclose (sortie2);
+
+    //Edition of the jpg move command line
+    strcat(MvJpgCommandLine,"mv ");
+    strcat(MvJpgCommandLine, FileName);
+    strcat(MvJpgCommandLine, "_fac_0.jp2 ./../DataBase");
+    if((sortie3=popen(MvJpgCommandLine, "r")) == NULL)
+    {
+        fprintf (stderr, "erreur");
+    }
+    while (fgets (tampon, sizeof tampon, sortie3) != NULL)
+    {
+        fputs (tampon, stdout);
+    }
+    fclose (sortie3);
+
 
     GtkWidget *dialog = NULL;
     dialog = gtk_message_dialog_new (GTK_WINDOW (win),

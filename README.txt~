@@ -97,8 +97,12 @@ Download the the driver of the card reader
 +------------------------------+
 
 Installer drivers du lecteur
-gtk
+
+dependences GTK ????????
 libxml2
+git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
+
+mode operatoire/explication de chaque bouton 
 
 
 To be completed ...
