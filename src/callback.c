@@ -70,51 +70,46 @@ void lancer (GtkWidget *wid, gpointer win)
 
     char tampon[UCHAR_MAX];
     FILE *sortie;
-    char CommandLine[500]={0};
+    char CommandLine [300] = {0};
     char MRZ[44]={0};
+    char FileName[34]={0};
+    int i;
 
- /*
-    strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
+    // Ajouter fonction pour rentrer la MRZ
 
-// Ajouter fonction pour rentrer la MRZ
-
-    if (MRZ == NULL)
-    {
-        fprintf (stderr, "Erreur, MRZ non-valide");
-    }
-    else printf("MRZ : %s\n",MRZ);
-
-    //strcat (CommandLine, "cd ~/wzmrtd\n./wzmrtd-tool -r ''#1'' -y -v -d -xml Test -pfx Test -dir ~/wzmrtd/basepassport\n");
-
-    strcat(CommandLine,"cd ~/wzmrtd\n./wzmrtd-tool -r \"#1\" -y -v -d -xml Test -pfx Test -z \"$(echo -e '");
-    strcat(CommandLine,MRZ);
-//    strcat(CommandLine,"\r\n");
-//    strcat(CommandLine,MRZ);
-    strcat(CommandLine,"')\" -dir ~/wzmrtd/basepassport\n");
-    printf("CommandLine : %s", CommandLine);
-*/
-
-    // Allan -------------------------
+    //strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
     strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
 
     if (MRZ == NULL)
     {
         fprintf (stderr, "Erreur, MRZ non-valide");
     }
-    else printf("MRZ : %s\n",MRZ);
 
-    strcat(CommandLine,"./../wzmrtd-tool.static -r \"#1\" -z \"$(echo -e '");
+    // Edition of the file name
+    for (i=0 ; i < 28 ; i++)
+    {
+        FileName[i] = MRZ[i] ;
+    }
+    FileName[28] = MRZ[42];
+    FileName[29] = MRZ[43];
+    strcat(FileName, ".xml");
+
+    //Edition of the command line
+    strcat(CommandLine,"./wzmrtd-tool.static -r \"#1\" -z '");
     strcat(CommandLine,MRZ);
     strcat(CommandLine,"\r\n");
     strcat(CommandLine,MRZ);
-    strcat(CommandLine,"')\" -f allanlorant.xml -v -xsi -y");
-    printf("CommandLine : %s", CommandLine);
-    // -------------------------------
+    strcat(CommandLine,"' -f ");
+    strcat(CommandLine, FileName);
+    strcat(CommandLine," -v -xsi -y");
 
-    /*if((sortie=popen(CommandLine, "r")) == NULL)
+
+    if((sortie=popen(CommandLine, "r")) == NULL)
     {
         fprintf (stderr, "erreur");
-    }*/
+    }
+
+
     while (fgets (tampon, sizeof tampon, sortie) != NULL)
     {
         fputs (tampon, stdout);

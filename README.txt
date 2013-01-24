@@ -89,12 +89,20 @@ Download the the driver of the card reader
 	# The option -f save the data in a xml file named test.xml here.
 
 # Help
-./wzmrtd-tool -h
+	$ ./wzmrtd-tool -h
 
 
 +------------------------------+
 | Use of RFID testing software |
 +------------------------------+
+
+Installer drivers du lecteur
+
+dependences GTK ????????
+libxml2
+git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
+
+mode operatoire/explication de chaque bouton 
 
 
 To be completed ...
