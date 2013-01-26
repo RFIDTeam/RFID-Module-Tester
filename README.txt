@@ -99,7 +99,7 @@ Download the the driver of the card reader
 Installer drivers du lecteur
 
 dependences GTK ????????
-libxml2
+libxml2    sudo apt-get install libxml2-dev libxslt-dev
 git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
 
 mode operatoire/explication de chaque bouton 

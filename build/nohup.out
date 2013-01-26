@@ -7335,3 +7335,3210 @@ Removed RFID from all deps
 Updating class browser...
 Class browser updated.
 Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+3 files loaded
+Done loading project in 14ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 3 file(s)...
+Starting batch parsing...
+Starting batch parsing...
+Starting batch parsing...
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Encoding conversion has failed (buffer is empty)!
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Starting batch parsing...
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Repars
+** (codeblocks:2882): CRITICAL **: murrine_style_draw_flat_box: assertion `width >= -1' failed
+ing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing project.
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Starting batch parsing...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 83ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+Starting batch parsing...
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 1 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:30: fatal error: include/callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:30: fatal error: include/callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Removed RFID from all deps
+Upd
+** (codeblocks:2054): CRITICAL **: murrine_style_draw_flat_box: assertion `width >= -1' failed
+ating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 1ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:30: fatal error: include/callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:30: fatal error: include/callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:30: fatal error: include/callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘readPassport’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:71:5: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:71:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘moveXmlToDataBase’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:94:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘moveJp2ToDataBase’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:113:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:156:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:150:11: warning: unused variable ‘dateOfExpiry’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:149:11: warning: unused variable ‘sex’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:148:11: warning: unused variable ‘dateOfBirth’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:147:11: warning: unused variable ‘nationality’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:146:11: warning: unused variable ‘number’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:145:11: warning: unused variable ‘givenName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:144:11: warning: unused variable ‘surName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:143:11: warning: unused variable ‘issuer’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:142:11: warning: unused variable ‘type’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:180:22: warning: ‘sortie’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:187:27: warning: ‘sortie2’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:188:27: warning: ‘sortie3’ may be used uninitialized in this function [-Wuninitialized]
+Compiling: ../src/main.c
+Compiling: ../src/xmlReader.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:1:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 17 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 3 files for #includes, cache used 512, cache updated 3
+Compiling: ../src/xmlReader.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:1:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing project.
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 1ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 4ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Starting batch parsing...
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+Reparsing saved files...
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+Starting batch parsing...
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘readPassport’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:72:5: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:72:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘moveXmlToDataBase’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:95:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘moveJp2ToDataBase’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:114:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:157:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:151:11: warning: unused variable ‘dateOfExpiry’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:150:11: warning: unused variable ‘sex’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:149:11: warning: unused variable ‘dateOfBirth’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:148:11: warning: unused variable ‘nationality’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:147:11: warning: unused variable ‘number’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:146:11: warning: unused variable ‘givenName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:145:11: warning: unused variable ‘surName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:144:11: warning: unused variable ‘issuer’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:143:11: warning: unused variable ‘type’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:181:22: warning: ‘sortie’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:188:27: warning: ‘sortie2’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:189:27: warning: ‘sortie3’ may be used uninitialized in this function [-Wuninitialized]
+Compiling: ../src/xmlReader.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:1:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 1 seconds)
+1 errors, 17 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 1 files for #includes, cache used 514, cache updated 1
+Compiling: ../src/xmlReader.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:1:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /us(codeblocks:5486): Gtk-DEBUG: No tracker backend available
+r/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 513, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:1:22: fatal error: callback.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 1 files for #includes, cache used 513, cache updated 1
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+In file included from /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:7:0,
+                 from /home/allanlorant/Desktop/RFID/Projet/src/callback.c:2:
+/usr/include/libxml2/libxml/tree.h:16:31: fatal error: libxml/xmlversion.h: No such file or directory
+compilation terminated.
+Process terminated with status 1 (0 minutes, 2 seconds)
+1 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 514, cache updated 0
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:151:11: warning: unused variable ‘dateOfExpiry’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:150:11: warning: unused variable ‘sex’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:149:11: warning: unused variable ‘dateOfBirth’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:148:11: warning: unused variable ‘nationality’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:147:11: warning: unused variable ‘number’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:146:11: warning: unused variable ‘givenName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:145:11: warning: unused variable ‘surName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:144:11: warning: unused variable ‘issuer’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:143:11: warning: unused variable ‘type’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:181:22: warning: ‘sortie’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:188:27: warning: ‘sortie2’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:189:27: warning: ‘sortie3’ may be used uninitialized in this function [-Wuninitialized]
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:5:16: error: conflicting types for ‘fct_parcours_t’
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:11:16: note: previous declaration of ‘fct_parcours_t’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:8:6: error: conflicting types for ‘parcours_arbre’
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:13:6: note: previous declaration of ‘parcours_arbre’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘parcours_arbre’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:15:13: error: too few arguments to function ‘parcours_arbre’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:8:6: note: declared here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:23:24: error: ‘XML_ELEMENT_NODsE’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:23:24: note: each undeclared identifier is reported only once for each function it appears in
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:28:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:29:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:32:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:33:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:36:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:37:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:40:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:41:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:44:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:45:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:48:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:49:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:52:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:53:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:56:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:57:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:60:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:61:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:71:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:71:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:86:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:94:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Process terminated with status 1 (0 minutes, 1 seconds)
+19 errors, 36 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 23 files for #includes, cache used 514, cache updated 23
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘parcours_arbre’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:13:9: error: too many arguments to function ‘f’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:15:13: error: too few arguments to function ‘parcours_arbre’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:8:6: note: declared here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:23:24: error: ‘XML_ELEMENT_NODsE’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:23:24: note: each undeclared identifier is reported only once for each function it appears in
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:28:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:29:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:32:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:33:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:36:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:37:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:40:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:41:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:44:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:45:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:48:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:49:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:52:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:53:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:56:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:57:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:60:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:61:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:71:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:71:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:86:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90:5: warning: passing argument 2 of ‘parcours_arbre’ from incompatible pointer type [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:8:6: note: expected ‘fct_parcours_t’ but argument is of type ‘void (*)(struct xmlNode *, char *, char *, char *, char *, char *, char *, char *, char *, char *)’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:94:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Process terminated with status 1 (0 minutes, 0 seconds)
+17 errors, 25 warnings
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 1 files for #includes, cache used 536, cache updated 1
+Compiling: ../src/callback.c
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c: In function ‘lancer’:
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:151:11: warning: unused variable ‘dateOfExpiry’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:150:11: warning: unused variable ‘sex’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:149:11: warning: unused variable ‘dateOfBirth’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:148:11: warning: unused variable ‘nationality’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:147:11: warning: unused variable ‘number’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:146:11: warning: unused variable ‘givenName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:145:11: warning: unused variable ‘surName’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:144:11: warning: unused variable ‘issuer’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:143:11: warning: unused variable ‘type’ [-Wunused-variable]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:181:22: warning: ‘sortie’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:188:27: warning: ‘sortie2’ may be used uninitialized in this function [-Wuninitialized]
+/home/allanlorant/Desktop/RFID/Projet/src/callback.c:189:27: warning: ‘sortie3’ may be used uninitialized in this function [-Wuninitialized]
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘parcours_arbre’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:12:13: error: too few arguments to function ‘parcours_arbre’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:5:6: note: declared here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:20:24: error: ‘XML_ELEMENT_NODsE’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:20:24: note: each undeclared identifier is reported only once for each function it appears in
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:21:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:25:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:29:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:33:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:37:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:41:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:45:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:49:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:53:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:57:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:68:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:68:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:77:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:91:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Process terminated with status 1 (0 minutes, 1 seconds)
+15 errors, 36 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘parcours_arbre’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:12:28: error: ‘racine’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:12:28: note: each undeclared identifier is reported only once for each function it appears in
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:21:24: error: ‘XML_ELEMENT_NODsE’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:78:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:92:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Process terminated with status 1 (0 minutes, 1 seconds)
+14 errors, 24 warnings
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Starting batch parsing...
+Reparsing saved files...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:21:24: error: ‘XML_ELEMENT_NODsE’ undeclared (first use in this function)
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:21:24: note: each undeclared identifier is reported only once for each function it appears in
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:78:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:92:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Process terminated with status 1 (0 minutes, 0 seconds)
+13 errors, 24 warnings
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+Starting batch parsing...
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:78:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:92:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 1 seconds)
+18 errors, 24 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 1 files for #includes, cache used 537, cache updated 1
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Caching result of `pkg-config gtk+-2.0 --cflags CXXFLAGS=-lxml2`
+Cached
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 26, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Reparsing project.
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 2ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 538, cache updated 0
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:28:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:32:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:33:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:36:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:37:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:40:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:41:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:44:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:45:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:48:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:49:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:52:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:53:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:56:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:57:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:60:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:61:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:64:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:65:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:98:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:68: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:81: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:86: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:89: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:96: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+18 errors, 24 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 1 files for #includes, cache used 537, cache updated 1
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:68: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:81: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:86: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:89: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:96: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+7 errors, 0 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading toolbar...
+Compiler: loaded
+ClassWizard: loaded
+AStylePlugin: loaded
+CodeCompletion: loaded
+ScriptedWizard: loaded
+ProjectsImporter: loaded
+Autosave: loaded
+FilesExtensionHandler: loaded
+Debugger: loaded
+ToDoList: loaded
+OpenFilesList: loaded
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "SDCC Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU ARM GCC Compiler"
+Added compiler "GNU AVR GCC Compiler"
+Added compiler "GNU GCC Compiler for PowerPC"
+Added compiler "GNU GCC Compiler for TriCore"
+Compiler plugin activated
+Class wizard plugin activated
+Source code formatter (AStyle) plugin activated
+Code completion plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added for 'SFML project'
+Project wizard added for 'Static library'
+Project wizard added for 'Shared library'
+Project wizard added for 'wxWidgets project'
+Build-target wizard added for 'Console'
+Build-target wizard added for 'Static library'
+Build-target wizard added for 'wxWidgets'
+Project wizard added for 'ARM Project'
+Project wizard added for 'AVR Project'
+Project wizard added for 'TriCore Project'
+Project wizard added for 'PowerPC Project'
+File(s) wizard added for 'Empty file'
+File(s) wizard added for 'C/C++ source'
+File(s) wizard added for 'C/C++ header'
+Scripted wizard plugin activated
+Foreign projects importer plugin activated
+Autosave plugin activated
+Files extension handler plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Open files list plugin activated
+Initializing plugins...
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Loading project file...
+Parsing project file...
+Loading target Debug
+Loading project files...
+5 files loaded
+Done loading project in 1ms
+Project's base path: /home/allanlorant/Desktop/RFID/Projet/build/
+Project's common toplevel path: /home/allanlorant/Desktop/RFID/Projet/
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/main.c
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+project data set for /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Top Editor: /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Opening file /home/allanlorant/Desktop/RFID/Projet/build/RFID.cbp
+Add project RFID in parsing queue
+Caching result of `pkg-config gtk+-2.0 --cflags`
+Cached
+Caching result of `pkg-config gtk+-2.0 --libs`
+Cached
+Caching internal gcc dirs for adding to parser...
+Caching GCC dir: /usr/include/c++/4.6
+Caching GCC dir: /usr/include/c++/4.6/x86_64-linux-gnu/.
+Caching GCC dir: /usr/include/c++/4.6/backward
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include
+Caching GCC dir: /usr/local/include
+Caching GCC dir: /usr/lib/gcc/x86_64-linux-gnu/4.6.1/include-fixed
+Caching GCC dir: /usr/include/x86_64-linux-gnu
+Caching GCC dir: /usr/include
+Passing list of files to batch-parser.
+Batch-parsing 5 file(s)...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:78:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:92:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 1 seconds)
+18 errors, 24 warnings
+Text seems to be pure ASCII!
+We use user specified encoding: Unicode 8 bit (UTF-8) (ID: 41)
+Final encoding detected: Unicode 8 bit (UTF-8) (ID: 41)
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/callback.c
+Reparsing saved files...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘xmlRead’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:78:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:84:9: warning: ‘return’ with a value, in function returning void [enabled by default]
+Linking console executable: bin/Debug/RFID
+Starting batch parsing...
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:80: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:83: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:90: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+18 errors, 23 warnings
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing while typing for editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Reparsing active editor /home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
+Reparsing saved files...
+Starting batch parsing...
+Scanned 0 files for #includes, cache used 0, cache updated 0
+Scanned 0 files for #includes, cache used 0, cache updated 0
+-------------- Build: Debug in RFID ---------------
+Scanned 0 files for #includes, cache used 537, cache updated 0
+Compiling: ../src/xmlReader.c
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: In function ‘afficher_noeud’:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:22:9: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:26:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:27:20: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:30:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:31:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:34:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:35:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:38:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:39:25: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:42:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:43:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:46:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:47:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:50:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:51:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:54:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:55:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:58:13: warning: pointer targets in passing argument 1 of ‘strcmp’ differ in signedness [-Wpointer-sign]
+/usr/include/string.h:143:12: note: expected ‘const char *’ but argument is of type ‘const xmlChar *’
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:59:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c: At top level:
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:69:1: warning: conflicting types for ‘xmlRead’ [enabled by default]
+/home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h:15:6: note: previous declaration of ‘xmlRead’ was here
+Linking console executable: bin/Debug/RFID
+obj/Debug/src/xmlReader.o: In function `afficher_noeud':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:24: undefined reference to `xmlNodeGetContent'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:62: undefined reference to `xmlFree'
+obj/Debug/src/xmlReader.o: In function `xmlRead':
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:74: undefined reference to `xmlKeepBlanksDefault'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:75: undefined reference to `xmlParseFile'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:79: undefined reference to `xmlDocGetRootElement'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:82: undefined reference to `xmlFreeDoc'
+/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c:88: undefined reference to `xmlFreeDoc'
+collect2: ld returned 1 exit status
+Process terminated with status 1 (0 minutes, 0 seconds)
+18 errors, 21 warnings
+Removed RFID from all deps
+Updating class browser...
+Class browser updated.
+Deinitializing plugins...

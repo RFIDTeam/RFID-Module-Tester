@@ -105,6 +105,8 @@ git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
 mode operatoire/explication de chaque bouton 
 
 
+Changer le nom du logiciel
+
 To be completed ...
 
 

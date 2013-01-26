@@ -1,3 +1,6 @@
+#ifndef CALLBACK_H
+#define CALLBACK_H
+
 #include <stdlib.h>
 #include <gtk/gtk.h>
 
@@ -7,3 +10,5 @@ void lancer(GtkWidget *, gpointer);
 void readPassport (char* MRZ, char* FileName, char* CommandLine, FILE* sortie, char* tampon);
 void moveXmlToDataBase (char* MvXmlCommandLine, char* FileName, FILE* sortie, char* tampon);
 void moveJp2ToDataBase (char* MvJpgCommandLine, char* FileName, FILE* sortie, char* tampon);
+
+#endif

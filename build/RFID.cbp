@@ -17,17 +17,27 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="`pkg-config gtk+-2.0 --cflags`" />
 			<Add option="-Wall" />
+			<Add option="`pkg-config gtk+-2.0 --cflags `" />
+			<Add directory="/home/allanlorant/Desktop/RFID/Projet/src" />
+			<Add directory="/home/allanlorant/Desktop/RFID/Projet/include" />
+			<Add directory="/usr/include/libxml2/" />
 		</Compiler>
 		<Linker>
 			<Add option="`pkg-config gtk+-2.0 --libs`" />
+			<Add library="/usr/lib/libxml2.so.2.7.8" />
+			<Add library="/usr/lib/libxml2.so.2" />
+			<Add library="/usr/lib/libxml2.so" />
 		</Linker>
 		<Unit filename="../include/callback.h" />
+		<Unit filename="../include/xmlReader.h" />
 		<Unit filename="../src/callback.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/xmlReader.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

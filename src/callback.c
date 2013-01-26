@@ -1,4 +1,6 @@
 #include "callback.h"
+#include "xmlReader.h"
+
 #define DEFAULT_FILE "main.c"
 
 
@@ -15,8 +17,7 @@ void fct_ouvrir(GtkWidget *wid, gpointer user_data)
                                                  GTK_STOCK_OPEN, GTK_RESPONSE_ACCEPT,
                                                  GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
 
-    if (gtk_dialog_run (GTK_DIALOG (selectionneur)) == GTK_RESPONSE_ACCEPT)
-    {
+    if (gtk_dialog_run (GTK_DIALOG (selectionneur)) == GTK_RESPONSE_ACCEPT){
         gchar *file_name = NULL;
 
         file_name = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (selectionneur));
@@ -38,8 +39,7 @@ void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
                                                  GTK_STOCK_OPEN, GTK_RESPONSE_ACCEPT,
                                                  GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
 
-    if (gtk_dialog_run (GTK_DIALOG (selectionneur)) == GTK_RESPONSE_ACCEPT)
-    {
+    if (gtk_dialog_run (GTK_DIALOG (selectionneur)) == GTK_RESPONSE_ACCEPT){
         gchar *file_name = NULL;
         char tampon[UCHAR_MAX];
         FILE *sortie;
@@ -48,12 +48,10 @@ void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
         file_name = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (selectionneur));
         sprintf (cmd, "pwd ; cd %s ; pwd", file_name);
 
-        if((sortie=popen(cmd, "r")) == NULL)
-        {
+        if((sortie=popen(cmd, "r")) == NULL){
             fprintf (stderr, "erreur");
         }
-        while (fgets (tampon, sizeof tampon, sortie) != NULL)
-        {
+        while (fgets (tampon, sizeof tampon, sortie) != NULL){
             fputs (tampon, stdout);
         }
 
@@ -79,13 +77,11 @@ void readPassport (char* MRZ, char* FileName, char* CommandLine, FILE* sortie, c
     strcat(CommandLine, FileName);
     strcat(CommandLine,".xml -v -xsi -y");
 
-    if((sortie=popen(CommandLine, "r")) == NULL)
-    {
+    if((sortie=popen(CommandLine, "r")) == NULL){
         fprintf (stderr, "erreur");
     }
 
-    while (fgets (tampon, sizeof tampon, sortie) != NULL)
-    {
+    while (fgets (tampon, sizeof tampon, sortie) != NULL){
         fputs (tampon, stdout);
     }
 
@@ -100,13 +96,11 @@ void moveXmlToDataBase (char* MvXmlCommandLine, char* FileName, FILE* sortie, ch
     strcat(MvXmlCommandLine, FileName);
     strcat(MvXmlCommandLine, ".xml ./../DataBase");
 
-    if((sortie=popen(MvXmlCommandLine, "r")) == NULL)
-    {
+    if((sortie=popen(MvXmlCommandLine, "r")) == NULL){
         fprintf (stderr, "erreur");
     }
 
-    while (fgets (tampon, sizeof tampon, sortie) != NULL)
-    {
+    while (fgets (tampon, sizeof tampon, sortie) != NULL){
         fputs (tampon, stdout);
     }
 
@@ -121,13 +115,11 @@ void moveJp2ToDataBase (char* MvJpgCommandLine, char* FileName, FILE* sortie, ch
     strcat(MvJpgCommandLine, FileName);
     strcat(MvJpgCommandLine, "_fac_0.jp2 ./../DataBase");
 
-    if((sortie=popen(MvJpgCommandLine, "r")) == NULL)
-    {
+    if((sortie=popen(MvJpgCommandLine, "r")) == NULL){
         fprintf (stderr, "erreur");
     }
 
-    while (fgets (tampon, sizeof tampon, sortie) != NULL)
-    {
+    while (fgets (tampon, sizeof tampon, sortie) != NULL){
         fputs (tampon, stdout);
     }
 
@@ -148,6 +140,24 @@ void lancer (GtkWidget *wid, gpointer win)
     char MvXmlCommandLine[51]={0};
     char MvJpgCommandLine[57]={0};
     char xmlDirectory[52]={0};
+    char* type = NULL;
+    char* issuer = NULL;
+    char* surName = NULL;
+    char* givenName = NULL;
+    char* number = NULL;
+    char* nationality = NULL;
+    char* dateOfBirth = NULL;
+    char* sex = NULL;
+    char* dateOfExpiry = NULL;
+    char* ttype = NULL;
+    char* tissuer = NULL;
+    char* tsurName = NULL;
+    char* tgivenName = NULL;
+    char* tnumber = NULL;
+    char* tnationality = NULL;
+    char* tdateOfBirth = NULL;
+    char* tsex = NULL;
+    char* tdateOfExpiry = NULL;
     int i;
 
     // Ajouter fonction pour rentrer la MRZ
@@ -155,14 +165,12 @@ void lancer (GtkWidget *wid, gpointer win)
     //strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
     strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
 
-    if (MRZ == NULL)
-    {
+    if (MRZ == NULL){
         fprintf (stderr, "Erreur, MRZ non-valide");
     }
 
     // Edition of the file name
-    for (i=0 ; i < 28 ; i++)
-    {
+    for (i=0 ; i < 28 ; i++){
         FileName[i] = MRZ[i] ;
     }
     FileName[28] = MRZ[42];
@@ -176,22 +184,46 @@ void lancer (GtkWidget *wid, gpointer win)
 
 
     // Test if passport already in database
-    if (fopen(xmlDirectory, "r")!= NULL)
-	{
+    if (fopen(xmlDirectory, "r")!= NULL){
 		printf("\n\n\n --------------------------------\nPassport in DataBase, data check in progress ...\n");
-        char* tempFile= "temp";
-        readPassport (MRZ, tempFile, CommandLine, sortie, tampon);
-        // RECUPERER LES CHAMPS DES 2 XML
-        // COMPARER LES CHAMPS
+        readPassport (MRZ, "temp", CommandLine, sortie, tampon);
+        // Read xml files
+        xmlRead("temp.xml", type, issuer, surName, givenName, number, nationality, dateOfBirth, sex, dateOfExpiry);
+        xmlRead(xmlDirectory, ttype, tissuer, tsurName, tgivenName, tnumber, tnationality, tdateOfBirth, tsex, tdateOfExpiry);
+        //Comparison
+        if ((strcmp (type, ttype) == 0) && (strcmp (issuer, tissuer) == 0)
+                                        && (strcmp (surName, tsurName) == 0)
+                                        && (strcmp (givenName, tgivenName) == 0)
+                                        && (strcmp (number, tnumber) == 0)
+                                        && (strcmp (nationality, tnationality) == 0)
+                                        && (strcmp (dateOfBirth, tdateOfBirth) == 0)
+                                        && (strcmp (sex, tsex) == 0)
+                                        && (strcmp (dateOfExpiry, tdateOfExpiry) == 0))
+                                        {
+                                            printf("\n----> Passport data matched, operational RFID reader <----\n");
+                                        }
 	}
-	else
-	{
+	else {
 		printf("\n\n\n --------------------------------\nNew passport detected, registration in database in progress ...\n");
+        //strcat(xmlName, FileName);
+        //strcat(xmlName, ".xml");
         readPassport (MRZ, FileName, CommandLine, sortie, tampon);
         moveXmlToDataBase (MvXmlCommandLine, FileName, sortie2, tampon);
         moveJp2ToDataBase (MvJpgCommandLine, FileName, sortie3, tampon);
-        // RECUPERER LES CHAMPS DU XML
+        xmlRead(xmlDirectory, type, issuer, surName, givenName, number, nationality, dateOfBirth, sex, dateOfExpiry);
+        printf("\n----> Passport added to data base <----\n");
 	}
+
+    printf("\nPassport data :\n");
+    printf("Type : %s\n", type);
+    printf("Issuer : %s\n", issuer);
+    printf("Surname : %s\n", surName);
+    printf("Given name : %s\n", givenName);
+    printf("Number : %s\n", number);
+    printf("Nationality : %s\n", nationality);
+    printf("Date of birth : %s\n", dateOfBirth);
+    printf("Sex : %s\n", sex);
+    printf("Date of expiry : %s\n", dateOfExpiry);
 
 
     GtkWidget *dialog = NULL;
@@ -211,23 +243,21 @@ static void open_file (const gchar *file_name, GtkTextView *zone_texte)
     {
         gchar *contents = NULL;
 
-        if (g_file_get_contents (file_name, &contents, NULL, NULL))
-        {
+        if (g_file_get_contents (file_name, &contents, NULL, NULL)) {
             /* Copie de contents dans le GtkTextView */
 
-        gchar *utf8 = NULL;
-        GtkTextIter iter;
-        GtkTextBuffer *buffer = NULL;
+            gchar *utf8 = NULL;
+            GtkTextIter iter;
+            GtkTextBuffer *buffer = NULL;
 
-        buffer = gtk_text_view_get_buffer (zone_texte);
-        gtk_text_buffer_get_iter_at_line (buffer, &iter, 0);
-        utf8 = g_locale_to_utf8 (contents, -1, NULL, NULL, NULL);
-        g_free (contents), contents = NULL;
-        gtk_text_buffer_insert (buffer, &iter, utf8, -1);
-        g_free (utf8), utf8 = NULL;
+            buffer = gtk_text_view_get_buffer (zone_texte);
+            gtk_text_buffer_get_iter_at_line (buffer, &iter, 0);
+            utf8 = g_locale_to_utf8 (contents, -1, NULL, NULL, NULL);
+            g_free (contents), contents = NULL;
+            gtk_text_buffer_insert (buffer, &iter, utf8, -1);
+            g_free (utf8), utf8 = NULL;
         }
-        else
-        {
+        else {
             printf ("Impossible d'ouvrir le fichier %s\n", file_name);
         }
     }
