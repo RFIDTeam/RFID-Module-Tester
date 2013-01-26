@@ -1,11 +1,17 @@
 # depslib dependency file v1.0
-1359215004 source:/home/allanlorant/Desktop/RFID/Projet/src/callback.c
+1359235229 source:/home/allanlorant/Desktop/RFID/Projet/src/callback.c
 	"callback.h"
 	"xmlReader.h"
 
-1359119100 /home/allanlorant/Desktop/RFID/Projet/include/callback.h
+1359235090 /home/allanlorant/Desktop/RFID/Projet/include/callback.h
 	<stdlib.h>
 	<gtk/gtk.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<libxml2/libxml/tree.h>
+	<libxml/parser.h>
+	<string.h>
 
 1317845845 /usr/include/gtk-2.0/gtk/gtk.h
 	<gdk/gdk.h>
@@ -2332,13 +2338,7 @@
 	<stdlib.h>
 	<gtk/gtk.h>
 
-1359214819 /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
-	<libxml2/libxml/tree.h>
-	<libxml/parser.h>
-	<string.h>
+1359235093 /home/allanlorant/Desktop/RFID/Projet/include/xmlReader.h
 
 1354670215 /usr/include/libxml2//libxml/parser.h
 	<stdarg.h>
@@ -2459,6 +2459,5 @@
 	<libxml/parser.h>
 	<libxml/encoding.h>
 
-1359214793 source:/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
-	"xmlReader.h"
+1359235098 source:/home/allanlorant/Desktop/RFID/Projet/src/xmlReader.c
 

@@ -205,8 +205,6 @@ void lancer (GtkWidget *wid, gpointer win)
 	}
 	else {
 		printf("\n\n\n --------------------------------\nNew passport detected, registration in database in progress ...\n");
-        //strcat(xmlName, FileName);
-        //strcat(xmlName, ".xml");
         readPassport (MRZ, FileName, CommandLine, sortie, tampon);
         moveXmlToDataBase (MvXmlCommandLine, FileName, sortie2, tampon);
         moveJp2ToDataBase (MvJpgCommandLine, FileName, sortie3, tampon);
