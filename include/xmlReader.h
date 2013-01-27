@@ -8,11 +8,11 @@
 #include <libxml/parser.h>
 #include <string.h>
 
-typedef void (*fct_parcours_t)(xmlNodePtr, char*, char*, char*, char*, char*, char*, char*, char*, char*);
+typedef void (*fct_parcours_t)(xmlNodePtr);
 
-void parcours_arbre(xmlNodePtr noeud, fct_parcours_t f, char* type, char* issuer, char* surName, char* givenName, char* number, char* nationality, char* dateOfBirth, char* sex, char* dateOfExpiry);
-void afficher_noeud(xmlNodePtr noeud, char* type, char* issuer, char* surName, char* givenName, char* number, char* nationality, char* dateOfBirth, char* sex, char* dateOfExpiry);
-void xmlRead(char* xmlFilePath, char* type, char* issuer, char* surName, char* givenName, char* number, char* nationality, char* dateOfBirth, char* sex, char* dateOfExpiry);
+void parcours_arbre(xmlNodePtr noeud, fct_parcours_t f);
+void afficher_noeud(xmlNodePtr noeud);
+char** xmlRead(char* xmlFilePath);
 
 
 #endif

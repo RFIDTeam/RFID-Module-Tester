@@ -1,52 +1,32 @@
-   ____ _               _    __  __       ____  _____ ___ ____    ____            _           _   
-  / ___| |__   ___  ___| | _|  \/  |_   _|  _ \|  ___|_ _|  _ \  |  _ \ _ __ ___ (_) ___  ___| |_ 
- | |   | '_ \ / _ \/ __| |/ / |\/| | | | | |_) | |_   | || | | | | |_) | '__/ _ \| |/ _ \/ __| __|
- | |___| | | |  __/ (__|   <| |  | | |_| |  _ <|  _|  | || |_| | |  __/| | | (_) | |  __/ (__| |_ 
-  \____|_| |_|\___|\___|_|\_\_|  |_|\__, |_| \_\_|   |___|____/  |_|   |_|  \___// |\___|\___|\__|
-  _____ _____ _____ _____ _____ ____|___/__ _____ _____ _____ _____ _____ _____|__/__ _____ _____ 
- |_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++   _____ _               _    __  __       _____                               _    ++
+++  / ____| |             | |  |  \/  |     |  __ \                             | |   ++
+++ | |    | |__   ___  ___| | _| \  / |_   _| |__) |_ _ ___ ___ _ __   ___  _ __| |_  ++
+++ | |    | '_ \ / _ \/ __| |/ / |\/| | | | |  ___/ _` / __/ __| '_ \ / _ \| '__| __| ++
+++ | |____| | | |  __/ (__|   <| |  | | |_| | |  | (_| \__ \__ \ |_) | (_) | |  | |_  ++
+++  \_____|_| |_|\___|\___|_|\_\_|  |_|\__, |_|   \__,_|___/___/ .__/ \___/|_|   \__| ++
+++                                      __/ |                  | |                    ++
+++                                     |___/                   |_|                    ++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 OS Required : Linux 32 bits
 
-+------------------------+
-| Use of GitHub on Linux |
-+------------------------+
++------------------------------+
+| Use of RFID testing software |
++------------------------------+
 
-# Installation
-	$ sudo apt-get install git-core
-# Switch to your new directory
-	$ cd ~/Project-RFID
-# Initialize the Git repository for the current directory
-	$ git init 
-# Download the project
-	$ git clone <URL>
+# Install the reader drivers
 
-# Write in the ~/.gitconfig  file :
-[user]
-	name = your name here
-	email = your adress here
+# Dependencies
+	$ sudo apt-get install libxml2-dev libxslt-dev git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
 
-# Pull of the files before doing modifications
-	$ git pull
-# Update if changes occur
-	$ git update
+??????????????????dependences GTK ????????
 
-# Adding all files to git repository
-	$ git add .
-# Commit files with a comment (needed)
-	$ git commit -m "My comment"
-# Push the commit
-	$ git push
 
-# Other options
-# Show the log file with the commits
-	$ git log 
-# Checking current status
-	$ git status
+??????????????mode operatoire/explication de chaque bouton ?????????????
 
-# For more information, please visit
-http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#telling-git-your-name
+
+To be completed ...
 
 
 +-------------------------------+
@@ -90,25 +70,5 @@ Download the the driver of the card reader
 
 # Help
 	$ ./wzmrtd-tool -h
-
-
-+------------------------------+
-| Use of RFID testing software |
-+------------------------------+
-
-Installer drivers du lecteur
-
-dependences GTK ????????
-libxml2    sudo apt-get install libxml2-dev libxslt-dev
-git-core cmake build-essential libpcsclite1 libpcsclite-dev pcscd
-
-mode operatoire/explication de chaque bouton 
-
-
-Changer le nom du logiciel
-
-To be completed ...
-
-
 
 Authors : ALLAIN Charlie, BELGHITI Sarah, LORANT Allan, PAUL Baptiste, SALLOUH Sabrina

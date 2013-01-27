@@ -2,18 +2,18 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="../include/callback.h" open="1" top="0" tabpos="3">
-		<Cursor position="303" topLine="0" />
+		<Cursor position="79" topLine="0" />
 	</File>
 	<File name="../include/xmlReader.h" open="1" top="0" tabpos="4">
-		<Cursor position="230" topLine="0" />
+		<Cursor position="330" topLine="0" />
 	</File>
 	<File name="../src/callback.c" open="1" top="0" tabpos="1">
-		<Cursor position="6905" topLine="192" />
+		<Cursor position="6630" topLine="217" />
 	</File>
-	<File name="../src/main.c" open="1" top="0" tabpos="2">
+	<File name="../src/main.c" open="1" top="1" tabpos="2">
 		<Cursor position="62" topLine="0" />
 	</File>
-	<File name="../src/xmlReader.c" open="1" top="1" tabpos="5">
-		<Cursor position="253" topLine="9" />
+	<File name="../src/xmlReader.c" open="1" top="0" tabpos="5">
+		<Cursor position="2774" topLine="78" />
 	</File>
 </CodeBlocks_layout_file>

@@ -25,8 +25,6 @@ void fct_ouvrir(GtkWidget *wid, gpointer user_data)
         g_free (file_name), file_name = NULL;
     }
     gtk_widget_destroy (selectionneur);
-
-//  (void) *wid;
 }
 
 
@@ -57,12 +55,9 @@ void fct_ouvrir2(GtkWidget *wid, gpointer user_data)
 
         fclose (sortie);
 
-
         g_free (file_name), file_name = NULL;
     }
     gtk_widget_destroy (selectionneur);
-
-//  (void) *wid;
 }
 
 
@@ -140,30 +135,14 @@ void lancer (GtkWidget *wid, gpointer win)
     char MvXmlCommandLine[51]={0};
     char MvJpgCommandLine[57]={0};
     char xmlDirectory[52]={0};
-    char* type = NULL;
-    char* issuer = NULL;
-    char* surName = NULL;
-    char* givenName = NULL;
-    char* number = NULL;
-    char* nationality = NULL;
-    char* dateOfBirth = NULL;
-    char* sex = NULL;
-    char* dateOfExpiry = NULL;
-    char* ttype = NULL;
-    char* tissuer = NULL;
-    char* tsurName = NULL;
-    char* tgivenName = NULL;
-    char* tnumber = NULL;
-    char* tnationality = NULL;
-    char* tdateOfBirth = NULL;
-    char* tsex = NULL;
-    char* tdateOfExpiry = NULL;
+    char** data1 = NULL;
+    char** data2 = NULL;
     int i;
 
-    // Ajouter fonction pour rentrer la MRZ
-
+    // Ajouter fonction pour rentrer la MRZ <---------------------------------
     //strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
     strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
+
 
     if (MRZ == NULL){
         fprintf (stderr, "Erreur, MRZ non-valide");
@@ -182,55 +161,51 @@ void lancer (GtkWidget *wid, gpointer win)
     strcat(xmlDirectory, ".xml");
     printf("%s\n", xmlDirectory);
 
-
     // Test if passport already in database
     if (fopen(xmlDirectory, "r")!= NULL){
 		printf("\n\n\n --------------------------------\nPassport in DataBase, data check in progress ...\n");
         readPassport (MRZ, "temp", CommandLine, sortie, tampon);
         // Read xml files
-        xmlRead("temp.xml", type, issuer, surName, givenName, number, nationality, dateOfBirth, sex, dateOfExpiry);
-        xmlRead(xmlDirectory, ttype, tissuer, tsurName, tgivenName, tnumber, tnationality, tdateOfBirth, tsex, tdateOfExpiry);
+        data1 = xmlRead("temp.xml");
+        data2 = xmlRead(xmlDirectory);
         //Comparison
-        if ((strcmp (type, ttype) == 0) && (strcmp (issuer, tissuer) == 0)
-                                        && (strcmp (surName, tsurName) == 0)
-                                        && (strcmp (givenName, tgivenName) == 0)
-                                        && (strcmp (number, tnumber) == 0)
-                                        && (strcmp (nationality, tnationality) == 0)
-                                        && (strcmp (dateOfBirth, tdateOfBirth) == 0)
-                                        && (strcmp (sex, tsex) == 0)
-                                        && (strcmp (dateOfExpiry, tdateOfExpiry) == 0))
-                                        {
-                                            printf("\n----> Passport data matched, operational RFID reader <----\n");
-                                        }
+        if ((strcmp (data1[0], data2[0]) == 0) && (strcmp (data1[1], data2[1]) == 0)
+                                               && (strcmp (data1[2], data2[2]) == 0)
+                                               && (strcmp (data1[3], data2[3]) == 0)
+                                               && (strcmp (data1[4], data2[4]) == 0)
+                                               && (strcmp (data1[5], data2[5]) == 0)
+                                               && (strcmp (data1[6], data2[6]) == 0)
+                                               && (strcmp (data1[7], data2[7]) == 0)
+                                               && (strcmp (data1[8], data2[8]) == 0))
+                                               {
+                                                   printf("\n----> Passport data matched, operational RFID reader <----\n");
+                                               }
 	}
 	else {
 		printf("\n\n\n --------------------------------\nNew passport detected, registration in database in progress ...\n");
-        //strcat(xmlName, FileName);
-        //strcat(xmlName, ".xml");
         readPassport (MRZ, FileName, CommandLine, sortie, tampon);
         moveXmlToDataBase (MvXmlCommandLine, FileName, sortie2, tampon);
         moveJp2ToDataBase (MvJpgCommandLine, FileName, sortie3, tampon);
-        xmlRead(xmlDirectory, type, issuer, surName, givenName, number, nationality, dateOfBirth, sex, dateOfExpiry);
+        data1 = xmlRead(xmlDirectory);
         printf("\n----> Passport added to data base <----\n");
 	}
 
     printf("\nPassport data :\n");
-    printf("Type : %s\n", type);
-    printf("Issuer : %s\n", issuer);
-    printf("Surname : %s\n", surName);
-    printf("Given name : %s\n", givenName);
-    printf("Number : %s\n", number);
-    printf("Nationality : %s\n", nationality);
-    printf("Date of birth : %s\n", dateOfBirth);
-    printf("Sex : %s\n", sex);
-    printf("Date of expiry : %s\n", dateOfExpiry);
-
+    printf("Type : %s\n", data1[0]);
+    printf("Issuer : %s\n", data1[1]);
+    printf("Surname : %s\n", data1[2]);
+    printf("Given name : %s\n", data1[3]);
+    printf("Number : %s\n", data1[4]);
+    printf("Nationality : %s\n", data1[5]);
+    printf("Date of birth (yymmdd): %s\n", data1[6]);
+    printf("Sex : %s\n", data1[7]);
+    printf("Date of expiry (yymmdd): %s\n", data1[8]);
 
     GtkWidget *dialog = NULL;
     dialog = gtk_message_dialog_new (GTK_WINDOW (win),
                                      GTK_DIALOG_MODAL,
                                      GTK_MESSAGE_ERROR,
-                                     GTK_BUTTONS_OK, "AAAAaaaaaaaaaaaaaah!");
+                                     GTK_BUTTONS_OK, "Passport reading ended");
     gtk_window_set_position (GTK_WINDOW (dialog), GTK_WIN_POS_CENTER);
     gtk_dialog_run (GTK_DIALOG (dialog));
     gtk_widget_destroy (dialog);
