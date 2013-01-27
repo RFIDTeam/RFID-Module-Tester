@@ -1,0 +1,10 @@
+#include <stdlib.h>
+<<<<<<< HEAD
+=======
+#include <string.h>
+>>>>>>> 02cc90186fa3ef4205ae801719027eb4d62355d4
+#include <gtk/gtk.h>
+
+void fct_ouvrir(GtkWidget *, gpointer);
+void fct_ouvrir2(GtkWidget *, gpointer);
+void lancer(GtkWidget *, gpointer);

@@ -138,6 +138,7 @@ void lancer (GtkWidget *wid, gpointer win)
     char** data1 = NULL;
     char** data2 = NULL;
     int i;
+    FILE* mrzFile;
 
     // Ajouter fonction pour rentrer la MRZ <---------------------------------
     //strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
@@ -188,8 +189,11 @@ void lancer (GtkWidget *wid, gpointer win)
         moveJp2ToDataBase (MvJpgCommandLine, FileName, sortie3, tampon);
         data1 = xmlRead(xmlDirectory);
         printf("\n----> Passport added to data base <----\n");
+        // Adding the MRZ to the MRZ.txt file
+        mrzFile = fopen("./../MRZ.txt","a");
+        fprintf(mrzFile,"%s\n",MRZ);
+        fclose(mrzFile);
 	}
-
     printf("\nPassport data :\n");
     printf("Type : %s\n", data1[0]);
     printf("Issuer : %s\n", data1[1]);
