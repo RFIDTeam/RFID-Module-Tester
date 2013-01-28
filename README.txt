@@ -47,6 +47,7 @@ OS Required : Linux 32 bits
 
 5) The test is over, you can change the reader or put a new passport to test it.
 
+Note that you can see more in details the execution of the reading in the opened terminal.
 
 +-------------------------------+
 | Use of wzmrtd on Linux 32 bits|
