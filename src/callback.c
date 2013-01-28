@@ -126,15 +126,17 @@ void lancer (GtkWidget *wid, gpointer win)
 {
 
     char tampon[UCHAR_MAX];
-    FILE *sortie;
-    FILE *sortie2;
-    FILE *sortie3;
+    FILE* sortie;
+    FILE* sortie2;
+    FILE* sortie3;
+    FILE* sortie4;
+    FILE* sortie5;
     char CommandLine [300] = {0};
     char MRZ[44]={0};
-    char FileName[34]={0};
-    char MvXmlCommandLine[51]={0};
-    char MvJpgCommandLine[57]={0};
-    char xmlDirectory[52]={0};
+    char FileName[44]={0};
+    char MvXmlCommandLine[65]={0};
+    char MvJpgCommandLine[71]={0};
+    char xmlDirectory[66]={0};
     char** data1 = NULL;
     char** data2 = NULL;
     int i;
@@ -142,7 +144,8 @@ void lancer (GtkWidget *wid, gpointer win)
 
     // Ajouter fonction pour rentrer la MRZ <---------------------------------
     //strcat(MRZ, "0123456784UTO8001014F2501017<<<<<<<<<<<<<<06");
-    strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
+    //strcat(MRZ, "09PI870308FRA9011090M1909100<<<<<<<<<<<<<<04");
+    strcat(MRZ, "EV02120860MAR8807113F1511114BE812755<<<<<<78");
 
 
     if (MRZ == NULL){
@@ -152,9 +155,10 @@ void lancer (GtkWidget *wid, gpointer win)
     // Edition of the file name
     for (i=0 ; i < 28 ; i++){
         FileName[i] = MRZ[i] ;
+        if (MRZ[i] == "<" ){
+            FileName[i] = "_";
+        }
     }
-    FileName[28] = MRZ[42];
-    FileName[29] = MRZ[43];
 
     // Path to the supposed xml file in the DataBase
     strcat(xmlDirectory, "./../DataBase/");
@@ -181,6 +185,8 @@ void lancer (GtkWidget *wid, gpointer win)
                                                {
                                                    printf("\n----> Passport data matched, operational RFID reader <----\n");
                                                }
+                                               sortie4=popen("rm temp.xml", "r");
+                                               sortie5=popen("rm temp_fac_0.jp2", "r");
 	}
 	else {
 		printf("\n\n\n --------------------------------\nNew passport detected, registration in database in progress ...\n");
