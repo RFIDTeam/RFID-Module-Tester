@@ -185,6 +185,8 @@ void lancer (GtkWidget *wid, gpointer win)
                                                {
                                                    printf("\n----> Passport data matched, operational RFID reader <----\n");
                                                }
+                                               else {printf("\n----> Error : passport data not matched, non-operational RFID reader <----\n");
+                                               }
                                                sortie4=popen("rm temp.xml", "r");
                                                sortie5=popen("rm temp_fac_0.jp2", "r");
 	}
