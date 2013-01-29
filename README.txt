@@ -37,8 +37,7 @@ OS Required : Linux 32 bits
 		[MRZ].xml corresponding to the data.
 		[MRZ]_fac_0.jp2 corresponding to the picture at JPEG2000 format.
 	     The message "Passport added to data base" will appear. The entered MRZ is registered 
-	     in the MRZ.txt file to allow you to copy&paste it at
-	     at the next reading.
+	     in the MRZ.txt file to allow you to copy&paste it at the next reading.
 	4-2] If the passport is already in the database, the software will read the data and 
 	     compare them with the data in the database, and then display them on the left 
 	     side. If the data are corresponding, you get the message "Passport data matched,
@@ -47,7 +46,7 @@ OS Required : Linux 32 bits
 
 5) The test is over, you can change the reader or put a new passport to test it.
 
-Note that you can see more in details the execution of the reading in the opened terminal.
+Note that you can see more details about the execution of the reading in the opened terminal.
 
 +-------------------------------+
 | Use of wzmrtd on Linux 32 bits|
@@ -65,8 +64,7 @@ Note that you can see more in details the execution of the reading in the opened
 	$ make	
 # Push "c" until the apparition of "g", then push it to generate.
 
-Download the the driver of the card reader and install it
-	http://www.hidglobal.com/driverDownloads.php?techCat=19&prod_id=171#
+# Download the the driver of the card reader and install it
 
        --------------
 
@@ -92,4 +90,4 @@ Download the the driver of the card reader and install it
 
 
 
-Authorss : ALLAIN Charlie, BELGHITI Sarah, LORANT Allan, PAUL Baptiste, SALLOUH Sabrina
+Authors : ALLAIN Charlie, BELGHITI Sarah, LORANT Allan, PAUL Baptiste, SALLOUH Sabrina
