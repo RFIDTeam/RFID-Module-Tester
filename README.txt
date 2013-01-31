@@ -23,6 +23,8 @@ OS Required : Linux 32 bits
 	$ sudo apt-get install libxml2-dev libxslt-dev git-core cmake build-essential 
 	                       libpcsclite1 libpcsclite-dev pcscd apt-get install libgtk2.0-dev
 
+# Don't forget to put the wzmrtd-tool executable under the directory .../[CheckMyPAssport_Install_Dir]/build/
+
 1) First, onpen a new terminal and launch the pcscd daemon.
 	$ sudo /etc/init.d/pcscd stop
 	$ sudo pcscd -afd
